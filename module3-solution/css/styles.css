@@ -1,0 +1,123 @@
+.navbar-default {
+	border-color: transparent;
+
+}
+
+.navbar-collapse {
+	
+	background-color: white;
+}
+
+#nav-list {
+	margin-top: 0px;
+}
+
+#header-nav {
+	margin-bottom: 0px;
+}
+
+#header-nav div.container {
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+li {
+	border-bottom: 2px solid black;
+}
+
+div.navbar-header {
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: #808080;	
+}
+
+.navbar-brand a {
+	color: black;
+	margin-left: 20px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#nav-list a {  
+  text-align: center;
+  color: black;
+  font-size: 1.5em;
+}
+
+.menu-description {
+	min-height: 1000px;
+	background-color: #808080;
+	padding: 10px;
+
+}
+
+.menu-title {
+	margin-top: 5px;
+	color: black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 2px solid black;
+}
+
+.navbar-header button.navbar-toggle:focus {
+	background-color: transparent;
+	border: 2px solid white;
+}
+
+.navbar-header button.navbar-toggle:focus .icon-bar {
+	
+	border: 2px solid white;
+}
+
+
+.wrapper {
+	margin-left: 15px;
+	margin-right: 15px;
+	
+}
+
+header {
+	margin-bottom: 10px;
+}
+
+.title {
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+#title-xs {
+	position: absolute;
+	top: 70px;
+	left: 230px;
+	z-index: -1;
+
+}
+
+.text-center {
+	margin-top: 10px;
+}
+
+body {
+	position: relative;;
+}
+
+
+@media (max-width: 767px) {
+
+	.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+	header {
+		margin-bottom: 85px;
+	}	
+}
+
