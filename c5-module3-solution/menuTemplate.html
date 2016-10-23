@@ -1,0 +1,23 @@
+<div class="row">
+  <table class="table table-condensed" ng-if="list.items.length">
+    <thead>
+      <th>#</th>
+      <th>Short Name</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th></th>
+    </thead>
+    <tbody>
+      <tr ng-repeat="item in list.items">
+        <td>{{$index + 1}}</td>
+        <td>{{item.short_name}}</td>
+        <td>{{item.name}}</td>
+        <td>{{item.description}}</td>
+        <td><button class="btn btn-primary" ng-click="list.onRemove({index: $index})">Don't want this one!</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div Class="alert alert-info" ng-if="list.items && !list.items.length">
+  Nothing found!
+</div>
